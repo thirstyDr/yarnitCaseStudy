@@ -2,7 +2,6 @@ from flask import Flask, request, jsonify
 from bs4 import BeautifulSoup
 import requests
 import nltk
-nltk.download('punkt')
 from nltk.tokenize import sent_tokenize
 
 app = Flask(__name__)
