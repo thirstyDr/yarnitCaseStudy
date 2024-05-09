@@ -20,7 +20,7 @@ email_prompt = PromptTemplate(
 format_prompts = {
     "linkedin": linkedin_prompt,
     "email": email_prompt,
-    # Add more formats and prompts as needed
+    # Add more formats and prompts
 }
 
 # Define a function to generate marketing content
@@ -30,7 +30,7 @@ def generate_content(format, topic, emotion=None, length=None):
 
     prompt = format_prompts[format]
 
-    # Add emotion and length instructions to the prompt if provided
+    # Add emotion and length instructions to the prompt
     if emotion and length:
         prompt = prompt.format(topic=topic, emotion=emotion, length=length)
     elif emotion:
