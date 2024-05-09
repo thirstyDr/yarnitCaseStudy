@@ -192,6 +192,3 @@ To add support for more content formats, you can extend the `format_prompts` dic
 
 This code can be deployed as a standalone Python script or integrated into a larger application or API. To run the code, simply execute the Python file after installing the required dependencies.
 
-**Note**
-
-This implementation uses the `langchain` and `langchain_openai` libraries, which provide a high-level interface for working with large language models like OpenAI's GPT-3. The quality and suitability of the generated content may vary depending on the topic, prompt templates, and language model used.
